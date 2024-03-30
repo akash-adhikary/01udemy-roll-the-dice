@@ -8,6 +8,7 @@ class GradientContainer extends StatelessWidget {
   const GradientContainer(this.colorCode, this.message, {super.key});
   final colorCode;
   final message;
+  
   final activeDiceImage = '6';
   @override
   Widget build(context) {
