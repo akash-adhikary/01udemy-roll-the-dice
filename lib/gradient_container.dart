@@ -10,22 +10,20 @@ class GradientContainer extends StatelessWidget {
   final message;
   @override
   Widget build(context) {
-    return Container(
+    return Container( 
       decoration: BoxDecoration(
         gradient: LinearGradient(
             colors: colorCode, begin: startAlignment, end: endAlignment),
       ),
-      child: Column(
-        children: [
-          Image.asset(
-            'assets/images/dice-2.png',
-            width: 200,
-          ),
-          TextButton(
-            onPressed: () {},
-            child: const Text('Roll Dice'),
-          )
-        ],
+      child: Center(
+        child: Image.asset('assets/images/dice-2.png', width: 200,),
+        // children: [
+        //   Image.asset(
+        //     'assets/images/dice-2.png',
+        //     width: 400,
+        //   ),
+          
+        // ],
       ),
     );
   }
