@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # first_app
 
 A new Flutter project.
@@ -17,5 +18,8 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 =======
 # 01udemy-roll-the-dice
+=======
+# Lesson 01. udemy-roll-the-dice
+>>>>>>> 963219db27492e3ec19438c0f16dbdc186ac9ba6
 roll the dice app for learning 
 >>>>>>> main
