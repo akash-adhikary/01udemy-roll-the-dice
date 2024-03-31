@@ -6,9 +6,9 @@ var endAlignment = Alignment.bottomRight;
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.colorCode, this.message, {super.key});
-  final colorCode;
-  final message;
-  
+  final List<Color> colorCode;
+  final String message;
+
   final activeDiceImage = '6';
   @override
   Widget build(context) {
